@@ -98,6 +98,9 @@
   <ItemGroup>
     <ClCompile Include="GameApp.cpp" />
     <ClCompile Include="swnLib\FileAction\FileAction.cpp" />
+    <ClCompile Include="swnLib\Socket\Client\Client.cpp" />
+    <ClCompile Include="swnLib\Socket\Server\Server.cpp" />
+    <ClCompile Include="swnLib\Socket\Socket.cpp" />
     <ClCompile Include="swnLib\StringAction\StringAction.cpp" />
     <ClCompile Include="WinMain.cpp" />
   </ItemGroup>
@@ -109,6 +112,9 @@
     <ClInclude Include="swnLib\Input\KeyInput.h" />
     <ClInclude Include="swnLib\Input\MouseInput.h" />
     <ClInclude Include="swnLib\Input\UserInput.h" />
+    <ClInclude Include="swnLib\Socket\Client\Client.h" />
+    <ClInclude Include="swnLib\Socket\Server\Server.h" />
+    <ClInclude Include="swnLib\Socket\Socket.h" />
     <ClInclude Include="swnLib\StringAction\StringAction.h" />
     <ClInclude Include="swnLib\VectorAction\VectorAction.h" />
     <ClInclude Include="swnLib\WebColor\WebColor.h" />
